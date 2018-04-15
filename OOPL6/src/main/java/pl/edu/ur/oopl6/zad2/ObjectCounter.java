@@ -4,6 +4,11 @@ import java.util.Random;
 
 public class ObjectCounter {
     public static void main(String[] args){
+        /*
+          Program tworzy 10 punktów (obiektów punkt) nadajac wspolrzednym x, y oraz z wartosci
+          z przedziału do 1000. Nastepnie wypisuje wspolrzedne obiektu i numer obiektu klasy Punkt.
+
+         */
         Punkt[] p = new Punkt[10];
         Random r = new Random();
         for (int i = 0; i<10; i++){
